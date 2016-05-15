@@ -65,6 +65,8 @@ jQuery(window).load(function () {
 window.onload = function(){
   var feed = new Instafeed({
   clientId: 'f5215be3cd164eb781911abfdeac8256',
+  get: 'user',
+  userId: 'contentoprints',
   limit: 20,
   sortBy: 'most-liked',
   after: function () {
