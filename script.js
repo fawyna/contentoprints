@@ -18,7 +18,7 @@ window.onload = function(){
       $(image).addClass('animated flipInX');
     });
   },
-  template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}<div class="caption">{{caption}}</div></div></a>'
+  template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div></a>'
 });
 
 // bind the load more button
