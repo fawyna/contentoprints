@@ -41,15 +41,14 @@
     background: none;
     border-bottom: 1px solid #000;
     border-radius: 0;
+    -webkit-transition: background 100ms ease-out;
+    -moz-transition: background 100ms ease-out;
+    -o-transition: background 100ms ease-out;
+    -ms-transition: background 100ms ease-out;
+    transition: background 100ms ease-out;
 }
 
 #load-more:hover {
     background: #000;
     color: #fff;
-    border: none;
-    -webkit-transition: background 100ms ease;
-    -moz-transition: background 100ms ease;
-    -o-transition: background 100ms ease;
-    -ms-transition: background 100ms ease;
-    transition: background 100ms ease;
 }
