@@ -64,7 +64,7 @@ jQuery(window).load(function () {
 
 window.onload = function(){
   var feed = new Instafeed({
-  clientId: '467ede5a6b9b48ae8e03f4e2582aeeb3',
+  clientId: 'f5215be3cd164eb781911abfdeac8256',
   limit: 20,
   sortBy: 'most-liked',
   after: function () {
