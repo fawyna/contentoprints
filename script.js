@@ -82,4 +82,4 @@ window.onload = function(){
   template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div></a>'
 });
 feed.run();
-});
+}
