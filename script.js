@@ -62,7 +62,7 @@ jQuery(window).load(function () {
 
 });
 
-window.onload(function(){
+window.onload = function(){
   var feed = new Instafeed({
   clientId: '467ede5a6b9b48ae8e03f4e2582aeeb3',
   limit: 20,
