@@ -1,72 +1,33 @@
-/* Default tags and Bootstrap classes */
-
-body {
-  font-family: 'PT Sans Caption', sans-serif;
-  color: #000099;
-  padding: 40px 0;
+#instafeed a {
+  padding:5px 5px 1px 5px;
+  margin:10px;
+  border:1px solid #e1e1e1;
+  display:inline-block;
+  border-radius: 4px;
+  position:relative;
 }
 
-.lead { padding: 40px 0; }
-
-
-
-/* Grid */
-
-#posts { margin: 30px auto 0; }
-.post {
-  margin: 0 0 50px;
-  text-align: center;
-  width: 100%;
-}
-.post img { padding: 0 15px; width: 100%; }
-
-#grid.container .post img { padding: 0; }
-
-
-/* Medium devices */
-
-@media (min-width: 768px) {
-  #grid > #posts .post { width: 335px; }
-  #grid > #posts .post.cs2 { width: 100%; }
-  .post img { padding: 0; }
+#instafeed .likes {
+  background:rgba(222,89,135,0.8);
+  font-family:sans-serif;
+  font-size:1em;
+  position:absolute;
+  color:#ffffff;
+  right:5px;
+  top:5px;
+  left:5px;
+  opacity:0;
+  text-align:center;
+  line-height:150px;
+  text-shadow:0 1px rgba(0,0,0,0.5);
+  -webkit-font-smoothing:antialiased;
+  -webkit-transition: opacity 100ms ease;
+  -moz-transition: opacity 100ms ease;
+  -o-transition: opacity 100ms ease;
+  -ms-transition: opacity 100ms ease;
+  transition: opacity 100ms ease;
 }
 
-
-
-/* Medium devices */
-
-@media (min-width: 992px) {
-  #grid > #posts .post { width: 445px; }
-  #grid > #posts .post.cs2 { width: 100%; }
-}
-
-
-
-/* Large devices */
-
-@media (min-width: 1200px) {
-  #grid > #posts .post { width: 346px; }
-  #grid > #posts .post.cs2 { width: 742px; }
-}
-
-
-
-/* Large devices min-width (1200px) + a .post margin (50px) * 2 (100px) = 1300px */
-/* 1300px gives me the clearance I need to keep the margins of the entire #grid (the
-bleed if you will) the same width as the .post margins posts (50px). Basically I'm
-being really picky about whitespace. If you don't care, no problem, just delete this.
-Can this be done with Masonry options? */
-
-@media (min-width: 1300px) {
-  #grid {
-    left: -50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    position: relative;
-      }
-  #grid.container {
-    left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+#instafeed a:hover .likes {
+  opacity:1;
 }
