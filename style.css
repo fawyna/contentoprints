@@ -47,4 +47,9 @@
     background: #000;
     color: #fff;
     border: none;
+    -webkit-transition: background 100ms ease;
+    -moz-transition: background 100ms ease;
+    -o-transition: background 100ms ease;
+    -ms-transition: background 100ms ease;
+    transition: background 100ms ease;
 }
