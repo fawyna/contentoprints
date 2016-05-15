@@ -5,7 +5,7 @@ window.onload = function(){
   get: 'user',
   userId: '2992165686',
   limit: 20,
-  resolution: 'standard_resolution',
+  resolution: 'low_resolution',
   after: function () {
     var images = $("#instafeed").find('a');
     $.each(images, function(index, image) {

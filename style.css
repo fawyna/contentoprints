@@ -32,6 +32,10 @@
   opacity:1;
 }
 
+#instafeed {
+  text-align: center;
+}
+
 #load_wrapper {
     text-align: center;
     margin: 10px;
