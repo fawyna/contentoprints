@@ -4,7 +4,7 @@ window.onload = function(){
   clientId: 'f5215be3cd164eb781911abfdeac8256',
   get: 'user',
   userId: '2992165686',
-  limit: 20,
+  limit: 30,
   resolution: 'low_resolution',
   after: function () {
     var images = $("#instafeed").find('a');
@@ -18,7 +18,7 @@ window.onload = function(){
       $(image).addClass('animated flipInX');
     });
   },
-  template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div></a>'
+  template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div><div class="caption">{{caption}}</div></a>'
 });
 
 // bind the load more button
