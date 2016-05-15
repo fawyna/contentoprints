@@ -31,3 +31,20 @@
 #instafeed a:hover .likes {
   opacity:1;
 }
+
+#load_wrapper {
+    text-align: center;
+    margin: 10px;
+}
+
+#load-more {
+    background: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+
+#load-more:hover {
+    background: #000;
+    color: #fff;
+    border: none;
+}
